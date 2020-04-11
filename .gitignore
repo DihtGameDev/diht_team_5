@@ -5,3 +5,6 @@
 /NodesProject/Temp/
 /NodesProject/Assets/**/*.meta
 /Resources/
+/Build/
+/NodesProject/Assets/ExternalDependencyManager/
+*.cache
