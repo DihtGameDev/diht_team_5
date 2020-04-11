@@ -168,7 +168,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5f3500186d2b3f94998258a5fa92b1c8, type: 3}
+    m_Font: {fileID: 12800000, guid: 72d27f6ca07bde9438d5365745c46776, type: 3}
     m_FontSize: 84
     m_FontStyle: 0
     m_BestFit: 0
@@ -364,7 +364,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 29e4b72b2fde59d4da37bfcbe06afe63, type: 3}
+    m_Font: {fileID: 12800000, guid: 74411de5332113845bbc9c1ed93106e3, type: 3}
     m_FontSize: 216
     m_FontStyle: 0
     m_BestFit: 0
@@ -399,6 +399,7 @@ GameObject:
   - component: {fileID: 1023421304}
   - component: {fileID: 1023421303}
   - component: {fileID: 1023421306}
+  - component: {fileID: 1023421307}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -463,7 +464,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1023421302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3049d195f6f0834db9e229269cf1599, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ea60fafcb7fa9041aa2b3742d3ebffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1023421307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023421302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57688468f47e6f747beefc0e91e2a6e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1307479189
@@ -522,7 +535,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5f3500186d2b3f94998258a5fa92b1c8, type: 3}
+    m_Font: {fileID: 12800000, guid: 72d27f6ca07bde9438d5365745c46776, type: 3}
     m_FontSize: 84
     m_FontStyle: 0
     m_BestFit: 0
@@ -651,7 +664,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 643c376a3799fac4eb321171baa6e5ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 759e4a67b10317d49ae84b856cef4bae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -723,7 +736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0ea0557753fab444e9af8c863dbbbd37, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 721a3ec532494894aaff574b1fe469e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -818,7 +831,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1481249738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1023421307}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Levels
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1481249738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5b40349ab123d514fac9e7df05d8daa4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38b00e42f5304e344aab16b56bf62058, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -910,7 +934,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5f3500186d2b3f94998258a5fa92b1c8, type: 3}
+    m_Font: {fileID: 12800000, guid: 72d27f6ca07bde9438d5365745c46776, type: 3}
     m_FontSize: 84
     m_FontStyle: 0
     m_BestFit: 0
@@ -1009,7 +1033,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1716487843}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1023421307}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Settings
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1716487843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,7 +1063,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5b40349ab123d514fac9e7df05d8daa4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38b00e42f5304e344aab16b56bf62058, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
