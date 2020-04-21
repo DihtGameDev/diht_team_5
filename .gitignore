@@ -1,0 +1,10 @@
+﻿/.idea/
+/NodesProject/.idea/
+/NodesProject/Library/
+/NodesProject/Logs/
+/NodesProject/Temp/
+/NodesProject/Assets/**/*.meta
+/Resources/
+/Build/
+/NodesProject/Assets/ExternalDependencyManager/
+*.cache
